@@ -1,3 +1,14 @@
+/**
+ * SaucePan Creative CSS Framework
+ *
+ * Inspired by all the other create CSS frameworks.
+ * 
+ * @author		Justin Kimbrell
+ * @copyright	Copyright (c) 2012, SaucePan Creative
+ * @version		1.0.1
+ * @build		20120319
+ */
+
 .hidden { display: none; }
 
 /*-------------------------------------------    
@@ -26,6 +37,9 @@ h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
 .small { font-size: 13px; }
 .smaller { font-size: 10px; }
 .tiny { font-size: 8px; }
+.align-center { text-align: center; }
+.align-left { text-align: center; }
+.align-center { text-align: center; }
 
 /*-------------------------------------------    
 	Positioning	
@@ -82,7 +96,107 @@ h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
 .inline li a {
 	display: inline-block;
 }
+
+/*------------------------------------------
+ *	Forms
+/* -------------------------------------- */
+
+form li.name {
+	float: left;
+	width: 50%;
+	}
 	
+form li.name input {
+	width: 90%;
+	}
+
+form li.name.with-middle {
+	width: 40%;
+	}
+
+form li.name.last input {
+	width: 96%;
+	}
+	
+form li.middle {
+	width: 20%;
+	}
+	
+form li.middle input {
+	width: 81%;
+	}
+		
+form li.city {
+	float: left;
+	width: 45%;
+	position: relative;
+	}
+		
+	form li.city input {
+		width: 86%;
+		}
+
+form li.state {
+	float: left;
+	width: 25%;
+	}
+
+	form li.state select {
+		width: 85%;
+		}
+
+form li.zip {
+	float: left;
+	width: 30%;
+	}
+	
+	form li.zip input {
+		width: 92%;
+		}
+
+form fieldset {
+	padding: 0;
+	margin: 0 0 1em 0;
+	border: none;
+	border-bottom: 1px solid #c2b29c;
+	}
+	
+form fieldset:last-child {
+	border-bottom: none;
+	}
+
+form .interests {
+	margin-bottom: 1em;
+	}
+	
+	form .interests label {
+		margin-left: 1em;
+		}
+
+form .fieldtype {
+	margin-top: 1.25em;
+	}
+
+form .adult {
+	padding: .5em 0;
+	}
+
+form input,
+form textarea {
+	border: 1px solid rgb(173, 173, 173);
+	padding: .5em .25em;
+	width: 100%;
+	}
+
+form textarea {
+}
+
+form input[type="radio"],
+form input[type="checkbox"] {
+	width: auto;
+	}
+
+
 /*-------------------------------------------    
 	Round Corners
 -------------------------------------------*/
